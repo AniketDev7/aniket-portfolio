@@ -1,0 +1,451 @@
+{
+  "personal": {
+    "name": "Aniket Shikhare",
+    "title": "Senior QA Engineer Level 2 ",
+    "location": "Mumbai, Maharashtra, India",
+    "email": "aniketshikhare7@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/aniket-shikhare/",
+    "github": "https://github.com/AniketDev7",
+    "twitter": ""
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "typingText": "Senior QA Engineer ",
+    "description": "AWS AI Practitioner | Generative AI & Agentic AI Professional | Senior Engineer II [QA] at Contentstack | ISTQB® CTFL | AI | MCP | Selenium | Automation | API | JAVA | TypeScript | JavaScript | CLI | SDK | Shell Scripts",
+    "floatingCards": [
+      {
+        "title": "CLI & SDK Testing",
+        "description": "Automation for CLI-based apps and cross-SDK validation",
+        "icon": "Code"
+      },
+      {
+        "title": "AI & Automation",
+        "description": "Cursor AI, OpenAI, Claude Code, GitHub Copilot — LLM-powered QA and test harnesses",
+        "icon": "Zap"
+      },
+      {
+        "title": "CI/CD & Pipelines",
+        "description": "AWS (EC2, S3, Lambdas, CodePipeline, Bedrock), Jenkins, GoCD, Docker, GitHub Actions",
+        "icon": "Shield"
+      },
+      {
+        "title": "MCP Testing",
+        "description": "Testing with Model Context Protocol — tools, agents, and context-aware QA workflows",
+        "icon": "Code"
+      },
+      {
+        "title": "Gen AI Testing",
+        "description": "Generative AI–driven test design, prompt-driven QA, and LLM-powered test utilities",
+        "icon": "Zap"
+      },
+      {
+        "title": "Web Testing",
+        "description": "Web automation testing for Vibe-based website builders and modern web apps",
+        "icon": "Shield"
+      }
+    ]
+  },
+  "about": {
+    "title": "Senior QA Engineer Level 2",
+    "description": "Building quality that ships fast — 10+ years in QA automation, DevOps, and AI-powered tooling. I'm a results-driven Senior QA Automation Engineer designing robust, scalable test frameworks across web, CLI, and enterprise environments. From end-to-end test strategies to CI/CD and security testing, my focus is quality that scales, not just catching bugs.",
+    "additionalDescription": "I thrive in: architecting automation for Web, CLI, SDK and headless apps; performance tuning and embedding test automation into CI/CD; and collaborating to shift quality left. Lately I've been integrating AI into developer workflows — from LLM-powered CLI assistants to prompt-driven QA utilities — because I believe the future of quality engineering is smart automation. Let's connect if you're building tools where quality, speed, and intelligence matter.",
+    "highlights": [
+      {
+        "title": "Test Automation",
+        "description": "Architecting automation for Web, CLI, SDK and headless applications",
+        "icon": "FaCheckCircle"
+      },
+      {
+        "title": "Performance & CI/CD",
+        "description": "Performance tuning, reducing test cycles, embedding automation into CI/CD",
+        "icon": "FaAward"
+      },
+      {
+        "title": "Collaboration",
+        "description": "Collaborating cross-functionally to shift quality left",
+        "icon": "FaUsers"
+      }
+    ],
+    "stats": [
+      {
+        "number": "10+",
+        "label": "Years in QA & Automation",
+        "icon": "FaCheckCircle"
+      },
+      {
+        "number": "4",
+        "label": "Key Certifications",
+        "icon": "FaAward"
+      },
+      {
+        "number": "70%",
+        "label": "Regression Time Reduced",
+        "icon": "FaUsers"
+      },
+      {
+        "number": "5+",
+        "label": "Automation frameworks built",
+        "icon": "FaBullseye"
+      }
+    ],
+    "skills": [
+      "Java",
+      "TypeScript",
+      "JavaScript",
+      "Selenium",
+      "MCP",
+      "Gen AI testing",
+      "Cypress",
+      "Playwright",
+      "Postman",
+      "CLI Automation",
+      "REST Assured",
+      "Jenkins",
+      "Git",
+      "Docker",
+      "AWS",
+      "JIRA",
+      "Agile"
+    ]
+  },
+  "education": [
+    {
+      "institution": "Patkar College",
+      "degree": "Bachelor of Science in Information Technology",
+      "field": "Information Technology",
+      "period": "2010 - 2013"
+    },
+    {
+      "institution": "SEED Infotech Pvt Ltd",
+      "degree": "SCTS (Seed Certified Testing Specialist)",
+      "field": "Software Testing, Manual & Automation Testing",
+      "period": "2014 - 2015"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior QA Engineer 2",
+      "company": "Contentstack",
+      "period": "Feb 2024 - Present",
+      "location": "Mumbai Metropolitan Region",
+      "overview": "AI adaptation, CLI + SDK testing. Built AI-powered CLI assistant, Sanity-Jet tool; leading SDK automation (JS, TS, Java, .NET). TSGEN utilities; Jenkins + GitHub webhooks.",
+      "description": "Role focused on AI adaptation and enhancing CLI + SDK testing. Built AI-powered CLI assistant (Oclif v4 plugin) for natural-language-to-commands. Designed Contentstack CLI end-to-end automation; created Sanity-Jet internal tool; leading SDK automation (JavaScript, TypeScript, Java, .NET). Built TSGEN automation utilities. Migrated CLI pipelines to Jenkins with GitHub webhooks.",
+      "technologies": ["Selenium", "Cypress", "TypeScript", "JavaScript", "Jenkins", "GitHub", "Oclif", "CLI", "SDK"]
+    },
+    {
+      "title": "Senior QA Engineer 1",
+      "company": "Contentstack",
+      "period": "Mar 2023 - Mar 2024",
+      "location": "Mumbai, Maharashtra, India",
+      "overview": "Advanced CLI E2E testing for migration, publishing, rollback. OAuth automation (AWS, GCP, Azure); CLI audit automation; GitHub webhooks + Jenkins. Mentored junior QAs.",
+      "description": "Advanced CLI end-to-end testing for content migration, publishing, rollback. Automation for OAuth integration (AWS, GCP, Azure). Automated CLI audit commands; integrated GitHub webhooks with Jenkins. Mentored junior QAs and participated in hiring for Senior QA Engineers.",
+      "technologies": ["Java", "Selenium", "Jenkins", "GitHub", "OAuth", "AWS", "GCP", "Azure"]
+    },
+    {
+      "title": "QA Engineer Level 2",
+      "company": "Contentstack",
+      "period": "Feb 2022 - Mar 2023",
+      "location": "Mumbai, Maharashtra, India",
+      "overview": "Led QA automation for Starter Kits; Agile collaboration. Initial Java + Selenium CLI framework for import/export, content migration. AWS & CI/CD (GoCD, Jenkins).",
+      "description": "Led QA automation for Starter Kits; Agile and sprint contributions with Product and Team Leads. Designed initial Java + Selenium framework for CLI workflows (import/export, content migration). Explored AWS and CI/CD (GoCD, Jenkins).",
+      "technologies": ["Java", "Selenium", "TestNG", "Jenkins", "GoCD", "AWS"]
+    },
+    {
+      "title": "QA Engineer Level 1",
+      "company": "Contentstack",
+      "period": "Feb 2020 - Feb 2022",
+      "location": "Mumbai, Maharashtra, India",
+      "overview": "Manual and API testing for Contentstack CLI. Built POC for CLI automation. Postman-based user creation validation; Starter Kit automation; sprint planning contributions.",
+      "description": "Manual and API testing for Contentstack CLI. Built POC for CLI automation. Automated validation of high-volume user creation with Postman. Supported Starter Kit automation and cross-browser testing; contributed to sprint planning and feature discussions.",
+      "technologies": ["Postman", "Java", "Selenium", "JIRA", "Manual Testing"]
+    },
+    {
+      "title": "QA Automation Engineer",
+      "company": "Bombay Shirt Company",
+      "period": "Jun 2019 - Feb 2020",
+      "location": "Mumbai Area, India",
+      "overview": "Selenium WebDriver frameworks for e-commerce. BDD with Cucumber & TestNG in Java; database-driven testing. Cross-browser testing for consistent UX.",
+      "description": "Built and maintained Selenium WebDriver frameworks for e-commerce. Implemented BDD with Cucumber and TestNG in Java; built database-driven testing framework. Drove cross-browser testing for consistent UX.",
+      "technologies": ["Selenium", "Java", "Cucumber", "TestNG", "BDD"]
+    },
+    {
+      "title": "Software Tester - Automation",
+      "company": "Softenger",
+      "period": "Jan 2017 - Jun 2019",
+      "location": "Mumbai Area, India",
+      "overview": "Java + Selenium automation for large-scale client apps. Contributed to Aditya Birla insurance portal; functional & regression test cases for policy and payment flows.",
+      "description": "Automation for large-scale client applications with Java and Selenium. Contributed to Aditya Birla's insurance policy portal; developed functional and regression test cases for policy purchase, payment, and user journeys.",
+      "technologies": ["Java", "Selenium WebDriver", "Regression Testing", "JIRA"]
+    },
+    {
+      "title": "Software Test Engineer",
+      "company": "Qtech Software Pvt Ltd",
+      "period": "Apr 2015 - Nov 2016",
+      "location": "Mumbai Area, India",
+      "overview": "End-to-end manual QA for B2B/B2C travel platforms. Sole QA owner for strategic client; Travel & Tourism domain; payment gateway testing (Payfort, Neo, Zoopay).",
+      "description": "End-to-end manual QA for B2B and B2C travel platforms: booking portals, reservation systems, web and mobile apps. Sole QA owner for a strategic client; domain expertise in Travel & Tourism and payment gateway testing (Payfort, Neo, Zoopay).",
+      "technologies": ["Manual Testing", "JIRA", "Test Cases", "Travel Domain"]
+    }
+  ],
+  "skills": {
+    "categories": [
+      {
+        "title": "Testing & Automation",
+        "icon": "FaBug",
+        "skills": [
+          { "name": "Selenium WebDriver", "icon": "SiSelenium", "level": 95 },
+          { "name": "Cypress / Playwright", "icon": "FaCode", "level": 88 },
+          { "name": "Postman / API Testing", "icon": "SiPostman", "level": 92 },
+          { "name": "MCP (Model Context Protocol)", "icon": "FaCode", "level": 85 },
+          { "name": "Gen AI–based testing", "icon": "FaCode", "level": 88 }
+        ]
+      },
+      {
+        "title": "Languages & Frameworks",
+        "icon": "FaCode",
+        "skills": [
+          { "name": "Java", "icon": "FaCode", "level": 90 },
+          { "name": "TypeScript / JavaScript", "icon": "FaCode", "level": 88 },
+          { "name": "TestNG / JUnit", "icon": "FaCheckCircle", "level": 91 },
+          { "name": "Cucumber BDD", "icon": "FaCheckCircle", "level": 85 }
+        ]
+      },
+      {
+        "title": "Tools & DevOps",
+        "icon": "FaDatabase",
+        "skills": [
+          { "name": "JIRA", "icon": "SiJira", "level": 94 },
+          { "name": "Jenkins / GoCD", "icon": "SiJenkins", "level": 89 },
+          { "name": "Git / GitHub Actions", "icon": "SiGit", "level": 91 },
+          { "name": "Docker", "icon": "SiDocker", "level": 86 },
+          { "name": "AWS (EC2, S3, Lambdas, CodePipeline, Bedrock)", "icon": "FaDatabase", "level": 85 }
+        ]
+      }
+    ],
+    "specializations": [
+      {
+        "title": "CLI & SDK Testing",
+        "description": "End-to-end automation for CLI apps and cross-SDK validation",
+        "icon": "FaCode",
+        "features": ["Oclif", "Content Migration", "Publishing", "Audit Automation"]
+      },
+      {
+        "title": "Web & API Automation",
+        "description": "Robust frameworks for web and REST APIs",
+        "icon": "FaBug",
+        "features": ["Selenium", "REST Assured", "Postman", "Data-Driven"]
+      },
+      {
+        "title": "MCP & Gen AI Testing",
+        "description": "Testing with Model Context Protocol, LLM-powered QA, and generative AI–driven test design and utilities",
+        "icon": "FaCode",
+        "features": ["MCP", "Gen AI test design", "LLM QA utilities", "Prompt-driven testing"]
+      },
+      {
+        "title": "CI/CD & Pipelines",
+        "description": "Pipeline automation: AWS (EC2, S3, Lambdas, CodePipeline, Bedrock), Jenkins, GoCD, Docker, GitHub Actions",
+        "icon": "FaDatabase",
+        "features": ["AWS Suite", "Jenkins", "GoCD", "Docker", "GitHub Actions"]
+      }
+    ],
+    "certifications": [
+      { "title": "AWS Certified AI Practitioner", "description": "Amazon Web Services (AWS) · Jan 2026" },
+      { "title": "Certified Agentic AI Professional", "description": "GSDC Global Skill Development Council · Aug 2025" },
+      { "title": "Certified Generative AI Professional", "description": "GSDC Global Skill Development Council · Jul 2025" },
+      { "title": "ISTQB Certified Tester - Foundation Level (CTFL)", "description": "ISTQB® - International Software Testing Qualifications Board · Dec 2019" }
+    ],
+    "otherCertifications": [
+      { "title": "Certified ScrumMaster (CSM)", "description": "Scrum Alliance · Oct 2023" },
+      { "title": "Foundations of Project Management", "description": "Google · Jan 2024" },
+      { "title": "Prompt Engineering: How to Talk to the AIs", "description": "LinkedIn Learning · Sep 2023" },
+      { "title": "How to Boost Your Productivity with AI Tools", "description": "LinkedIn Learning · Sep 2023" },
+      { "title": "TypeScript for Professionals", "description": "Udemy" },
+      { "title": "Learn TDD in 24 hours", "description": "Udemy · Oct 2022" },
+      { "title": "DevOps, CI/CD for Beginners", "description": "Udemy · May 2022" },
+      { "title": "Github Essentials", "description": "Udemy · Sep 2021" },
+      { "title": "AWS Essentials", "description": "Udemy · Jan 2023" }
+    ]
+  },
+  "projects": [
+    {
+      "title": "CLI-Based AI Assistant for Contentstack CLI",
+      "description": "Created and tested a CLI-based AI assistant (Oclif v4 plugin) that helps Contentstack CLI users via natural-language-to-commands. Integrates LLM capabilities into developer workflows and was single-handedly validated for accuracy, edge cases, and usability.",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=500&h=300&fit=crop",
+      "technologies": ["Oclif", "LLM", "CLI", "AI", "TypeScript", "Natural Language"],
+      "category": "AI & Automation",
+      "icon": "Zap",
+      "demo": "#",
+      "github": "#",
+      "features": ["Natural Language to Commands", "Oclif Plugin", "LLM Integration", "User-Facing QA"]
+    },
+    {
+      "title": "AI-Powered Test Generation & QA Utilities",
+      "description": "Explored AI in QA: prompt-driven test case generation, LLM-powered QA utilities, and TSGEN automation. Focus on intelligent test harnesses and accelerating test design while keeping quality gates and coverage measurable.",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=500&h=300&fit=crop",
+      "technologies": ["LLM", "Prompt Engineering", "Test Generation", "TypeScript", "QA Automation"],
+      "category": "AI & Automation",
+      "icon": "Zap",
+      "demo": "#",
+      "github": "#",
+      "features": ["Test Case Generation", "Prompt-Driven QA", "TSGEN", "Intelligent Harnesses"]
+    },
+    {
+      "title": "Contentstack CLI End-to-End Automation",
+      "description": "Designed and built end-to-end automation for the Contentstack CLI (Oclif-based). Covers content migration, publishing, rollback, audit commands; OAuth flows (AWS, GCP, Azure); integrated with Jenkins and GitHub webhooks. Java + Selenium framework evolved into a maintainable regression suite.",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=500&h=300&fit=crop",
+      "technologies": ["Java", "Selenium", "Oclif", "Jenkins", "GitHub Webhooks", "OAuth", "AWS", "GCP", "Azure"],
+      "category": "Automation Testing",
+      "icon": "Code",
+      "demo": "#",
+      "github": "#",
+      "features": ["CLI E2E", "Content Migration", "Audit Automation", "CI/CD Integration"]
+    },
+    {
+      "title": "Cross-SDK Validation Framework",
+      "description": "Single-handedly tested Contentstack SDKs across five tech stacks: JavaScript, TypeScript, Java, Python, and .NET, plus Contentstack CLI. Built contract, smoke, and regression validation to ensure consistent behavior and API parity across all SDKs and the CLI.",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=500&h=300&fit=crop",
+      "technologies": ["JavaScript", "TypeScript", "Java", "Python", ".NET", "Contentstack CLI", "Contract Testing", "API Parity"],
+      "category": "Automation Testing",
+      "icon": "Code",
+      "demo": "#",
+      "github": "#",
+      "features": ["Multi-SDK Coverage", "Contract & Smoke", "API Parity", "Single Owner"]
+    },
+    {
+      "title": "Manual QA & Test Strategy – Contentstack CLI",
+      "description": "Led end-to-end manual QA for Contentstack CLI before automation: test planning, exploratory testing, defect lifecycle, and acceptance criteria. Single QA owner for CLI workflows (import/export, content migration, auth), establishing the quality baseline that later automation built on.",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&h=300&fit=crop",
+      "technologies": ["Test Planning", "Exploratory Testing", "JIRA", "Defect Tracking", "Acceptance Criteria", "CLI"],
+      "category": "Manual QA",
+      "icon": "Shield",
+      "demo": "#",
+      "github": "#",
+      "features": ["Test Strategy", "Defect Lifecycle", "Single QA Owner", "CLI Workflows"]
+    },
+    {
+      "title": "Payment Integration with RazorPay & PayPal",
+      "description": "Integrated RazorPay and PayPal APIs into an e-commerce platform for secure payment processing. Covered API integration, transaction management, security compliance, and documentation.",
+      "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop",
+      "technologies": ["RazorPay API", "PayPal API", "Java", "Spring Boot", "REST APIs", "MySQL", "Postman", "Jenkins", "Git"],
+      "category": "API & Integration",
+      "icon": "Code",
+      "demo": "https://razorpay.com",
+      "github": "#",
+      "features": ["Payment Gateway", "Transaction Management", "Security Compliance"]
+    },
+    {
+      "title": "Data Management and Reporting with Tableau",
+      "description": "Developed and implemented data management and reporting solutions using Tableau for business intelligence. Data collection, warehousing, dashboards, and user training.",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop",
+      "technologies": ["Tableau Desktop", "Tableau Server", "SQL", "ETL", "Excel", "Google Sheets"],
+      "category": "Data & BI",
+      "icon": "Zap",
+      "demo": "https://tableau.com",
+      "github": "#",
+      "features": ["Dashboards", "Data Visualization", "Reporting"]
+    },
+    {
+      "title": "API Automation Framework with RestAssured",
+      "description": "Designed and developed a robust API automation framework using RestAssured for testing RESTful web services. Framework design, data-driven tests, reporting, CI/CD integration, and API security testing.",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=500&h=300&fit=crop",
+      "technologies": ["RestAssured", "Java", "Maven", "TestNG", "JUnit", "Jenkins", "Git", "Postman"],
+      "category": "API Testing",
+      "icon": "Zap",
+      "demo": "https://restassured.io",
+      "github": "#",
+      "features": ["REST API Testing", "Data-Driven", "CI/CD", "Security Testing"]
+    },
+    {
+      "title": "E-commerce Platform with Spring Boot and React",
+      "description": "Full-stack e-commerce platform using Spring Boot (backend) and React (frontend). Backend and frontend development, database management, API development, deployment and maintenance.",
+      "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop",
+      "technologies": ["Spring Boot", "React", "MySQL", "Hibernate", "JPA", "REST APIs", "Maven", "Git", "Jenkins", "AWS"],
+      "category": "Full Stack",
+      "icon": "Code",
+      "demo": "#",
+      "github": "#",
+      "features": ["Backend & Frontend", "Database", "APIs", "Deployment"]
+    },
+    {
+      "title": "Test Management and Defect Tracking with Jira",
+      "description": "Implemented and managed test management and defect tracking using Jira to streamline the software testing lifecycle. Jira configuration, test case management, workflows, reporting and dashboards.",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&h=300&fit=crop",
+      "technologies": ["Jira", "Confluence", "Zephyr", "Xray", "Slack", "Excel"],
+      "category": "Test Management",
+      "icon": "Shield",
+      "demo": "https://jira.com",
+      "github": "#",
+      "features": ["Test Case Management", "Defect Tracking", "Dashboards", "Workflows"]
+    }
+  ],
+  "activity": {
+    "title": "Featured",
+    "subtitle": "Posts I've featured on my LinkedIn profile — each card links to the post",
+    "linkedinProfile": "https://www.linkedin.com/in/aniket-shikhare/",
+    "posts": [
+      {
+        "title": "AWS Certified AI Practitioner",
+        "excerpt": "Earned the AWS Certified AI Practitioner credential — applying cloud and AI fundamentals to quality engineering, testing at scale, and AI-assisted QA workflows.",
+        "date": "Recent",
+        "link": "https://www.linkedin.com/feed/update/urn:li:activity:7423767291265212416/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7423767291265212416%29",
+        "image": ""
+      },
+      {
+        "title": "GSDC Certified: Agentic AI Professional",
+        "excerpt": "GSDC-certified in Agentic AI — building and applying autonomous agents, LangChain, and agentic systems in real-world engineering and QA contexts.",
+        "date": "Recent",
+        "link": "https://www.linkedin.com/feed/update/urn:li:activity:7364336455122321408/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7364336455122321408%29",
+        "image": ""
+      },
+      {
+        "title": "GSDC Certified: Generative AI Professional",
+        "excerpt": "GSDC-certified in Generative AI — prompt engineering, LLMs, and AI-powered developer experience to accelerate quality and automation.",
+        "date": "Recent",
+        "link": "https://www.linkedin.com/feed/update/urn:li:activity:7356646069058908160/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7356646069058908160%29",
+        "image": ""
+      },
+      {
+        "title": "From Manual Testing to AI-Assisted Engineering: My 10-Year Journey",
+        "excerpt": "A decade ago I started out manually testing features and teaching myself automation. From manual testing → Automation → Shell scripting → Developing tools → Implementing AI — 10 years of staying curious and building without waiting for permission.",
+        "date": "Recent",
+        "link": "https://www.linkedin.com/feed/update/urn:li:activity:7349826873993871362/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A7349826873993871362%29",
+        "image": ""
+      }
+    ]
+  },
+  "recommendations": {
+    "title": "Professional Recommendations",
+    "subtitle": "What colleagues and industry professionals say about working with me.",
+    "items": [
+      {
+        "name": "Saurav Upadhyay",
+        "role": "Colleague",
+        "company": "Contentstack",
+        "avatar": "https://media.licdn.com/dms/image/v2/D4D03AQHe4YVa_6oN5A/profile-displayphoto-shrink_100_100/B4DZYajFx0H4AU-/0/1744202131393?e=1772064000&v=beta&t=0837GfXUM7qN8qV3qD2Z_bhILCr2fjvPz5UursfoPvU",
+        "content": "I have collaborated with Aniket on various cross-functional initiatives, where his expertise and steadfast commitment to quality consistently impressed me. In the capacity of a Senior QA Engineer Level 2, Aniket has demonstrated exceptional contributions and unwavering dedication to our collaborative projects. Aniket demonstrates an outstanding ability to identify issues promptly and execute decisive actions. His rigorous testing methodologies and meticulous attention to detail have played a pivotal role in ensuring the reliability and success of our collaborative endeavors. He possesses an extensive understanding of diverse testing methodologies and tools, adeptly leveraging them to deliver precise and efficient outcomes. Beyond technical proficiency, Aniket distinguishes himself through exceptional leadership, teamwork, and communication skills. He consistently provides clear, actionable feedback and collaborates effectively with stakeholders to address issues and enhance processes. His positive demeanor, professionalism, and ability to mentor junior team members make him an invaluable asset in any project. Aniket's dedication to continuous learning and professional growth is evident in his proactive efforts to stay abreast of industry trends and emerging technologies. He consistently goes above and beyond to ensure optimal results and elevate the team's performance. I confidently recommend Aniket Shikhare for a Leadership role within any organization. His contributions have been instrumental to our collaborative endeavors, and I have no doubt he will bring the same level of excellence, leadership, and commitment to any future projects he undertakes in this capacity.",
+        "rating": 5
+      },
+      {
+        "name": "Ankita Dodamani",
+        "role": "Former Team Member",
+        "company": "Contentstack",
+        "avatar": "https://media.licdn.com/dms/image/v2/D4D03AQFXS0LlrEw6KQ/profile-displayphoto-scale_100_100/B4DZfcAZn2H4Ac-/0/1751742783635?e=1772064000&v=beta&t=n8Ow79OLhqZ836RDZt8oqCXoNgmFfATIB2rwX4JVyn8",
+        "content": "I had the pleasure of working alongside Aniket during our time at Contentstack, where he held the position of Senior QA Engineer. Although Aniket wasn't directly managing me, his guidance and expertise greatly contributed to my professional growth. His innovative approaches to problem-solving set a high standard for me to think out of the box. Aniket's creative thinking and meticulous attention to detail consistently impressed me, and I often found myself inspired by his work ethic. I highly recommend Aniket for any role that values excellence, teamwork, and forward-thinking. He is truly an asset to any organization.",
+        "rating": 5
+      }
+    ]
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Let's discuss your next project and how I can help ensure its quality",
+    "description": "I'm always interested in new opportunities and exciting projects. Whether you have a question about testing strategies, automation, or AI in QA — or want to discuss a potential collaboration — I'd love to hear from you.",
+    "availability": {
+      "status": "Open to new opportunities",
+      "description": "Currently open to QA leadership, automation, and AI-powered quality engineering roles. Let's connect."
+    }
+  },
+  "footer": {
+    "description": "Senior QA Engineer Level 2 · Building quality that ships fast",
+    "services": ["Test Automation", "CLI & SDK Testing", "CI/CD", "API Testing", "AI in QA"]
+  }
+}

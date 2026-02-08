@@ -1,0 +1,136 @@
+.activity {
+  position: relative;
+  padding: 5rem 0;
+}
+
+.activity .section-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.activity .section-subtitle {
+  font-size: 1.1rem;
+  color: #888;
+  margin-top: 0.75rem;
+}
+
+.activity-empty {
+  text-align: center;
+  max-width: 36rem;
+  margin: 0 auto 2rem;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px dashed rgba(0, 255, 136, 0.25);
+  border-radius: 16px;
+}
+
+.activity-empty-text {
+  color: #aaa;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+}
+
+.activity-empty-text code {
+  background: rgba(0, 255, 136, 0.1);
+  color: #00ff88;
+  padding: 0.15rem 0.4rem;
+  border-radius: 6px;
+  font-size: 0.85em;
+}
+
+.activity-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.activity-card {
+  display: block;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(0, 255, 136, 0.2);
+  border-radius: 16px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease;
+}
+
+.activity-card:hover {
+  border-color: rgba(0, 255, 136, 0.4);
+  box-shadow: 0 12px 28px rgba(0, 255, 136, 0.08);
+}
+
+.activity-card-image {
+  height: 140px;
+  background: rgba(0, 255, 136, 0.06);
+  overflow: hidden;
+}
+
+.activity-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.activity-card-body {
+  padding: 1.25rem;
+}
+
+.activity-date {
+  display: inline-block;
+  font-size: 0.8rem;
+  color: #00ff88;
+  margin-bottom: 0.5rem;
+}
+
+.activity-card-body h3 {
+  color: #ffffff;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.activity-card-body p {
+  color: #aaa;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 0.75rem;
+}
+
+.activity-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.9rem;
+  color: #00ff88;
+}
+
+.activity-cta {
+  text-align: center;
+}
+
+.btn-activity {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.85rem 1.5rem;
+  background: rgba(0, 255, 136, 0.1);
+  border: 1px solid rgba(0, 255, 136, 0.4);
+  color: #00ff88;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-activity:hover {
+  background: rgba(0, 255, 136, 0.2);
+  border-color: #00ff88;
+}
+
+@media (max-width: 768px) {
+  .activity-grid {
+    grid-template-columns: 1fr;
+  }
+}
