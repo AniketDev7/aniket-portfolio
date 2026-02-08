@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/aniket-portfolio/static/css/main.dc4e667c.css",
+    "main.js": "/aniket-portfolio/static/js/main.7eceb234.js",
+    "index.html": "/aniket-portfolio/index.html",
+    "main.dc4e667c.css.map": "/aniket-portfolio/static/css/main.dc4e667c.css.map",
+    "main.7eceb234.js.map": "/aniket-portfolio/static/js/main.7eceb234.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc4e667c.css",
+    "static/js/main.7eceb234.js"
+  ]
+}
