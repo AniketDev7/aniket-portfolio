@@ -78,9 +78,7 @@ const About = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
           >
             <div className="stats-grid">
-              {about.stats.map((stat, index) => {
-                const IconComponent = getIcon(stat.icon);
-                return (
+              {about.stats.map((stat, index) => (
                   <motion.div
                     key={stat.label}
                     className="stat-card"
@@ -93,8 +91,7 @@ const About = () => {
                       {stat.number}</div>
                     <div className="stat-label">{stat.label}</div>
                   </motion.div>
-                );
-              })}
+              ))}
             </div>
           </motion.div>
         </div>
