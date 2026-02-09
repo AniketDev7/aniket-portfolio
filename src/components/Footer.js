@@ -1,10 +1,36 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { Code, Heart, ArrowUp, ExternalLink } from 'lucide-react';
+import { Code, Heart, ArrowUp, ExternalLink, Eye } from 'lucide-react';
 import portfolioData from '../data/portfolioData.json';
 import './Footer.css';
 
+const COUNTAPI_NAMESPACE = 'aniket-portfolio';
+const COUNTAPI_KEY = 'visits';
+
+// CountAPI doesn't support CORS; use a proxy so it works from GitHub Pages
+const countApiUrl = (path) =>
+  `https://corsproxy.io/?${encodeURIComponent(`https://api.countapi.xyz${path}`)}`;
+
 const Footer = () => {
+  const [visitCount, setVisitCount] = useState(null);
+  const [visitError, setVisitError] = useState(false);
+
+  useEffect(() => {
+    const hasCountedThisSession = sessionStorage.getItem('portfolio_visit_counted');
+    const path = `/${hasCountedThisSession ? 'get' : 'hit'}/${COUNTAPI_NAMESPACE}/${COUNTAPI_KEY}`;
+    fetch(countApiUrl(path))
+      .then((res) => res.json())
+      .then((data) => {
+        if (typeof data.value === 'number') {
+          setVisitCount(data.value);
+          if (!hasCountedThisSession) sessionStorage.setItem('portfolio_visit_counted', '1');
+        } else {
+          setVisitError(true);
+        }
+      })
+      .catch(() => setVisitError(true));
+  }, []);
+
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
@@ -88,6 +114,15 @@ const Footer = () => {
           <div className="footer-bottom-content">
             <p>
               © 2026 {personal.name}. Made with <Heart className="heart-icon" /> and lots of coffee
+              <span className="footer-visit-count">
+                {' · '}
+                <Eye size={14} className="visit-icon" />
+                {visitCount != null
+                  ? `${visitCount.toLocaleString()} visits`
+                  : visitError
+                    ? '— visits'
+                    : '… visits'}
+              </span>
             </p>
             <motion.button
               className="scroll-top-btn"
