@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/aniket-portfolio/static/css/main.a648628e.css",
-    "main.js": "/aniket-portfolio/static/js/main.8f5984ac.js",
+    "main.js": "/aniket-portfolio/static/js/main.cc89ce1c.js",
     "index.html": "/aniket-portfolio/index.html",
     "main.a648628e.css.map": "/aniket-portfolio/static/css/main.a648628e.css.map",
-    "main.8f5984ac.js.map": "/aniket-portfolio/static/js/main.8f5984ac.js.map"
+    "main.cc89ce1c.js.map": "/aniket-portfolio/static/js/main.cc89ce1c.js.map"
   },
   "entrypoints": [
     "static/css/main.a648628e.css",
-    "static/js/main.8f5984ac.js"
+    "static/js/main.cc89ce1c.js"
   ]
 }
