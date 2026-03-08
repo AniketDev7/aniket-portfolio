@@ -76,15 +76,17 @@ const Projects = () => {
                   <img src={project.image} alt={project.title} />
                   <div className="project-overlay">
                     <div className="project-actions">
-                      <motion.a
-                        href={project.demo}
-                        className="project-btn"
-                        whileHover={{ scale: 1.1 }}
-                        whileTap={{ scale: 0.9 }}
-                      >
-                        <Play size={16} />
-                        Demo
-                      </motion.a>
+                      {project.demo && project.demo !== '#' && (
+                        <motion.a
+                          href={project.demo}
+                          className="project-btn"
+                          whileHover={{ scale: 1.1 }}
+                          whileTap={{ scale: 0.9 }}
+                        >
+                          <Play size={16} />
+                          Demo
+                        </motion.a>
+                      )}
                       <motion.a
                         href={project.github}
                         className="project-btn"

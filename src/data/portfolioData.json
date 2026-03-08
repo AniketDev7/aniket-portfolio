@@ -3,7 +3,7 @@
     "name": "Aniket Shikhare",
     "title": "Senior QA Engineer Level 2 ",
     "location": "Mumbai, Maharashtra, India",
-    "email": "aniketshikhare7@gmail.com",
+    "email": "aniketshikhare30@gmail.com",
     "linkedin": "https://www.linkedin.com/in/aniket-shikhare/",
     "github": "https://github.com/AniketDev7",
     "twitter": ""
@@ -83,7 +83,7 @@
         "icon": "FaUsers"
       },
       {
-        "number": "5+",
+        "number": "7+",
         "label": "Automation frameworks built",
         "icon": "FaBullseye"
       }
@@ -95,7 +95,6 @@
       "Selenium",
       "MCP",
       "Gen AI testing",
-      "Cypress",
       "Playwright",
       "Postman",
       "CLI Automation",
@@ -268,114 +267,35 @@
   },
   "projects": [
     {
-      "title": "CLI-Based AI Assistant for Contentstack CLI",
-      "description": "Created and tested a CLI-based AI assistant (Oclif v4 plugin) that helps Contentstack CLI users via natural-language-to-commands. Integrates LLM capabilities into developer workflows and was single-handedly validated for accuracy, edge cases, and usability.",
-      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=500&h=300&fit=crop",
-      "technologies": ["Oclif", "LLM", "CLI", "AI", "TypeScript", "Natural Language"],
-      "category": "AI & Automation",
+      "title": "Voyyara – AI Travel Planner",
+      "description": "AI-powered travel companion that creates personalized, day-by-day itineraries in seconds. Built with Next.js 15, React 19, and Contentstack; features Voyyara Genie (OpenAI GPT-4 or Contentstack Gen AI), natural conversation planning, and predefined itineraries for multiple destinations.",
+      "image": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=500&h=300&fit=crop",
+      "technologies": ["Next.js 15", "React 19", "TypeScript", "Contentstack", "OpenAI GPT-4", "Tailwind CSS", "Framer Motion"],
+      "category": "AI & Full Stack",
       "icon": "Zap",
-      "demo": "#",
-      "github": "#",
-      "features": ["Natural Language to Commands", "Oclif Plugin", "LLM Integration", "User-Facing QA"]
+      "demo": "https://voyyara-ai.eu-contentstackapps.com/",
+      "github": "https://github.com/AniketDev7/voyyara-ai-travel-planner",
+      "features": ["AI Itinerary Generation", "Contentstack CMS", "Multi-Destination", "Streaming Chat UI"]
     },
     {
-      "title": "AI-Powered Test Generation & QA Utilities",
-      "description": "Explored AI in QA: prompt-driven test case generation, LLM-powered QA utilities, and TSGEN automation. Focus on intelligent test harnesses and accelerating test design while keeping quality gates and coverage measurable.",
-      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=500&h=300&fit=crop",
-      "technologies": ["LLM", "Prompt Engineering", "Test Generation", "TypeScript", "QA Automation"],
-      "category": "AI & Automation",
-      "icon": "Zap",
-      "demo": "#",
-      "github": "#",
-      "features": ["Test Case Generation", "Prompt-Driven QA", "TSGEN", "Intelligent Harnesses"]
-    },
-    {
-      "title": "Contentstack CLI End-to-End Automation",
-      "description": "Designed and built end-to-end automation for the Contentstack CLI (Oclif-based). Covers content migration, publishing, rollback, audit commands; OAuth flows (AWS, GCP, Azure); integrated with Jenkins and GitHub webhooks. Java + Selenium framework evolved into a maintainable regression suite.",
+      "title": "AI-Powered REST Assured Framework",
+      "description": "Java-based API test automation framework that combines REST Assured with an AI test generator. Feed an OpenAPI/Swagger spec; the AI layer (OpenAI GPT-4 or Anthropic Claude) analyzes endpoints, drafts test cases, and generates REST Assured + TestNG code with human review at each step.",
       "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=500&h=300&fit=crop",
-      "technologies": ["Java", "Selenium", "Oclif", "Jenkins", "GitHub Webhooks", "OAuth", "AWS", "GCP", "Azure"],
+      "technologies": ["Java 11+", "REST Assured", "TestNG", "OpenAI GPT-4", "Anthropic Claude", "Maven", "OpenAPI/Swagger"],
+      "category": "AI & API Testing",
+      "icon": "Zap",
+      "github": "https://github.com/AniketDev7/ai-rest-assured-framework",
+      "features": ["AI Test Case Generation", "Spec-to-Tests", "Human-in-the-Loop", "Provider-Agnostic LLM"]
+    },
+    {
+      "title": "CLI Testing Framework – Git Edition",
+      "description": "Comprehensive CLI E2E testing framework for git: 58 tests across init, config, staging, commit, branch, log/diff, merge, and error handling. Built with TypeScript, Jest, and Node's child_process (zero runtime dependencies); runs in isolated temp dirs with HTML and JUnit reports.",
+      "image": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=500&h=300&fit=crop",
+      "technologies": ["TypeScript", "Jest", "Node.js", "child_process", "Git E2E"],
       "category": "Automation Testing",
       "icon": "Code",
-      "demo": "#",
-      "github": "#",
-      "features": ["CLI E2E", "Content Migration", "Audit Automation", "CI/CD Integration"]
-    },
-    {
-      "title": "Cross-SDK Validation Framework",
-      "description": "Single-handedly tested Contentstack SDKs across five tech stacks: JavaScript, TypeScript, Java, Python, and .NET, plus Contentstack CLI. Built contract, smoke, and regression validation to ensure consistent behavior and API parity across all SDKs and the CLI.",
-      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=500&h=300&fit=crop",
-      "technologies": ["JavaScript", "TypeScript", "Java", "Python", ".NET", "Contentstack CLI", "Contract Testing", "API Parity"],
-      "category": "Automation Testing",
-      "icon": "Code",
-      "demo": "#",
-      "github": "#",
-      "features": ["Multi-SDK Coverage", "Contract & Smoke", "API Parity", "Single Owner"]
-    },
-    {
-      "title": "Manual QA & Test Strategy – Contentstack CLI",
-      "description": "Led end-to-end manual QA for Contentstack CLI before automation: test planning, exploratory testing, defect lifecycle, and acceptance criteria. Single QA owner for CLI workflows (import/export, content migration, auth), establishing the quality baseline that later automation built on.",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&h=300&fit=crop",
-      "technologies": ["Test Planning", "Exploratory Testing", "JIRA", "Defect Tracking", "Acceptance Criteria", "CLI"],
-      "category": "Manual QA",
-      "icon": "Shield",
-      "demo": "#",
-      "github": "#",
-      "features": ["Test Strategy", "Defect Lifecycle", "Single QA Owner", "CLI Workflows"]
-    },
-    {
-      "title": "Payment Integration with RazorPay & PayPal",
-      "description": "Integrated RazorPay and PayPal APIs into an e-commerce platform for secure payment processing. Covered API integration, transaction management, security compliance, and documentation.",
-      "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop",
-      "technologies": ["RazorPay API", "PayPal API", "Java", "Spring Boot", "REST APIs", "MySQL", "Postman", "Jenkins", "Git"],
-      "category": "API & Integration",
-      "icon": "Code",
-      "demo": "https://razorpay.com",
-      "github": "#",
-      "features": ["Payment Gateway", "Transaction Management", "Security Compliance"]
-    },
-    {
-      "title": "Data Management and Reporting with Tableau",
-      "description": "Developed and implemented data management and reporting solutions using Tableau for business intelligence. Data collection, warehousing, dashboards, and user training.",
-      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop",
-      "technologies": ["Tableau Desktop", "Tableau Server", "SQL", "ETL", "Excel", "Google Sheets"],
-      "category": "Data & BI",
-      "icon": "Zap",
-      "demo": "https://tableau.com",
-      "github": "#",
-      "features": ["Dashboards", "Data Visualization", "Reporting"]
-    },
-    {
-      "title": "API Automation Framework with RestAssured",
-      "description": "Designed and developed a robust API automation framework using RestAssured for testing RESTful web services. Framework design, data-driven tests, reporting, CI/CD integration, and API security testing.",
-      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=500&h=300&fit=crop",
-      "technologies": ["RestAssured", "Java", "Maven", "TestNG", "JUnit", "Jenkins", "Git", "Postman"],
-      "category": "API Testing",
-      "icon": "Zap",
-      "demo": "https://restassured.io",
-      "github": "#",
-      "features": ["REST API Testing", "Data-Driven", "CI/CD", "Security Testing"]
-    },
-    {
-      "title": "E-commerce Platform with Spring Boot and React",
-      "description": "Full-stack e-commerce platform using Spring Boot (backend) and React (frontend). Backend and frontend development, database management, API development, deployment and maintenance.",
-      "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop",
-      "technologies": ["Spring Boot", "React", "MySQL", "Hibernate", "JPA", "REST APIs", "Maven", "Git", "Jenkins", "AWS"],
-      "category": "Full Stack",
-      "icon": "Code",
-      "demo": "#",
-      "github": "#",
-      "features": ["Backend & Frontend", "Database", "APIs", "Deployment"]
-    },
-    {
-      "title": "Test Management and Defect Tracking with Jira",
-      "description": "Implemented and managed test management and defect tracking using Jira to streamline the software testing lifecycle. Jira configuration, test case management, workflows, reporting and dashboards.",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&h=300&fit=crop",
-      "technologies": ["Jira", "Confluence", "Zephyr", "Xray", "Slack", "Excel"],
-      "category": "Test Management",
-      "icon": "Shield",
-      "demo": "https://jira.com",
-      "github": "#",
-      "features": ["Test Case Management", "Defect Tracking", "Dashboards", "Workflows"]
+      "github": "https://github.com/AniketDev7/cli-testing-framework",
+      "features": ["58 Git E2E Tests", "Isolated Temp Repos", "HTML & JUnit Reports", "CI/CD Ready"]
     }
   ],
   "activity": {

@@ -7,9 +7,11 @@ import './Footer.css';
 const COUNTAPI_NAMESPACE = 'aniket-portfolio';
 const COUNTAPI_KEY = 'visits';
 
-// CountAPI doesn't support CORS; use a proxy so it works from GitHub Pages
-const countApiUrl = (path) =>
-  `https://corsproxy.io/?${encodeURIComponent(`https://api.countapi.xyz${path}`)}`;
+// CountAPI doesn't support CORS; try CORS proxy (works from GitHub Pages)
+const COUNTAPI_PROXIES = [
+  (path) => `https://api.cors.lol/?url=${encodeURIComponent(`https://api.countapi.xyz${path}`)}`,
+  (path) => `https://corsproxy.io/?${encodeURIComponent(`https://api.countapi.xyz${path}`)}`,
+];
 
 const Footer = () => {
   const [visitCount, setVisitCount] = useState(null);
@@ -18,17 +20,40 @@ const Footer = () => {
   useEffect(() => {
     const hasCountedThisSession = sessionStorage.getItem('portfolio_visit_counted');
     const path = `/${hasCountedThisSession ? 'get' : 'hit'}/${COUNTAPI_NAMESPACE}/${COUNTAPI_KEY}`;
-    fetch(countApiUrl(path))
-      .then((res) => res.json())
-      .then((data) => {
-        if (typeof data.value === 'number') {
-          setVisitCount(data.value);
-          if (!hasCountedThisSession) sessionStorage.setItem('portfolio_visit_counted', '1');
-        } else {
-          setVisitError(true);
-        }
-      })
-      .catch(() => setVisitError(true));
+
+    const tryFetch = (proxyIndex) => {
+      if (proxyIndex >= COUNTAPI_PROXIES.length) {
+        setVisitError(true);
+        return;
+      }
+      const url = COUNTAPI_PROXIES[proxyIndex](path);
+      fetch(url)
+        .then((res) => {
+          if (!res.ok) throw new Error('Proxy or API error');
+          return res.json();
+        })
+        .then((data) => {
+          // CORS.lol wraps as { status, body }; others return CountAPI response directly
+          let payload = data;
+          if (data?.body != null) {
+            try {
+              payload = typeof data.body === 'string' ? JSON.parse(data.body) : data.body;
+            } catch {
+              tryFetch(proxyIndex + 1);
+              return;
+            }
+          }
+          const value = payload?.value;
+          if (typeof value === 'number') {
+            setVisitCount(value);
+            if (!hasCountedThisSession) sessionStorage.setItem('portfolio_visit_counted', '1');
+          } else {
+            tryFetch(proxyIndex + 1);
+          }
+        })
+        .catch(() => tryFetch(proxyIndex + 1));
+    };
+    tryFetch(0);
   }, []);
 
   const scrollToTop = () => {
